@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - positive, negative or zero
- * Return: 0
+ * main - Entry
+ * Return: Always 0
  */
 int main(void)
 {
