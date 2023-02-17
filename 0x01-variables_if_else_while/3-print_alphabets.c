@@ -1,21 +1,19 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
- * main - Entrypoint for the function that prints alphabets
+ * main - Entrypoint for the function that prints alpha in lc and up
  * Return: Always 0
  */
 int main(void)
 {
-	char case;
+	char alpha;
 
-	for (case = 'a'; case <= 'z'; case++)
-		putchar(case);
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+		putchar(alpha);
 
-	for (case = 'A'; case <= 'Z'; case++)
-		putchar(case);
-
-			putchar('\n');
+	for (alpha = 'A'; alpha <= 'Z'; alpha++)
+		putchar(alpha);
+	putchar('\n');
 
 			return (0);
 }
