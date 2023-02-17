@@ -7,13 +7,16 @@
  */
 int main(void)
 {
-	char l_c;
-	for (l_c = 'a'; l_c <= 'z'; l_c++)
+	char lowercase;
+
+	for (lowercase = 'a'; lowercase <= 'z'; lowercase++)
 	{
-		putchar(l_c);
+		putchar(lowercase'\n');
 	}
-	putchar('\n');
 	return (0);
 }
+
+
+
 
 
