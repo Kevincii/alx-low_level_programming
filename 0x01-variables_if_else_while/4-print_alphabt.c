@@ -1,18 +1,17 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+
 /**
  * main - Entrypoint for the function
  * Return: Always 0
  */
 int main(void)
 {
-	char case;
+	char cs;
 
-	for (case = 'a'; case <= 'z'; case++)
+	for (cs = 'a'; cs <= 'z'; cs++)
 	{
-		if (case != 'e' && case != 'q')
-			putchar(case);
+		if (cs != 'e' && cs != 'q')
+			putchar(cs);
 	}
 
 	putchar('\n');
