@@ -1,20 +1,23 @@
 #include "main.h"
+
 /**
- * _isalpha - function that prints sign of a number
- * @c: character
- * Return: 1 if n > 0, 0 if n = 0, -1 if n < 0
+ * print_sign - function that prints sign of a number
+ * @c: the int to be checked
+ * Return: 1 and prints + if n is greater than zero 
+ * 0 and prints 0 if n is equal to  0
+ * -1 and prints - if n is less than 0
  */
-int _isalpha(int c)
+int print_sign(int n)
 {
-	if (c > 0)
+	if (n > 0)
 	{
 		_putchar('+');
 		return (1);
-	} else if (c == 0)
+	} else if (n == 0)
 	{
 		_putchar('48');
 		return (0);
-	} else if (c < 0)
+	} else if (n < 0)
 	{
 		_putchar('-');
 	}
