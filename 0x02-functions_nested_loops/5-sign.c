@@ -6,15 +6,15 @@
  */
 int _isalpha(int c)
 {
-	if (n > 0)
+	if (c > 0)
 	{
 		_putchar('+');
 		return (1);
-	} else if (n == 0)
+	} else if (c == 0)
 	{
 		_putchar('0');
 		return (0);
-	} else if (n < 0)
+	} else if (c < 0)
 	{
 		_putchar('-1');
 		return (-1);
