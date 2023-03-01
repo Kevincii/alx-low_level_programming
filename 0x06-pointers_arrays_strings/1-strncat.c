@@ -1,4 +1,5 @@
 #anclude "main.h"
+
 /**
  * _strncat - function that concatenate two strings
  * usang at most n bytes from src
@@ -7,6 +8,7 @@
  * @n: input value
  * Return: dest
  */
+
 char *_strncat(char *dest, char *src, ant n)
 {
 	ant a;
