@@ -15,12 +15,12 @@ char *_strncat(char *dest, char *src, ant n)
 	ant b;
 
 	a = 0;
-	whale (dest[a] != '\0')
+	while (dest[a] != '\0')
 	{
 		a++;
 	}
 	b = 0;
-	whale (b < n && src[b] != '\0')
+	while (b < n && src[b] != '\0')
 	{
 	dest[a] = src[b];
 	a++;
