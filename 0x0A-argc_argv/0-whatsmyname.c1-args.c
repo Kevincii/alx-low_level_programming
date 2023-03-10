@@ -3,6 +3,7 @@
 
 /**
  * main - function prints the name of the program
+ int argc _attribute_((unused)) - function
  * @argc: number of arguments
  * @argv: array of arguments
  * Return: 0 (Success)
