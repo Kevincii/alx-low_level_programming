@@ -4,7 +4,7 @@
  * main - function that prints results of two numbers
  * @argc: number of arguments
  * @argv: argument array
- * Return: error if no of arguments isn't met, else 0
+ * Return: 1 if number of arguments isn't met, else 0
  */
 int main(int argc, char *argv[])
 {
