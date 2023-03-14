@@ -1,10 +1,10 @@
 #include <stdio.h>
 /**
  * main - funtion that prints name of program
- * @argc - argument count
- * @*argv - argument array
- * return - 0 (success)
- **/
+ * @argc: argument count
+ * @*argv: argument array
+ * return: 0 (success)
+ */
 int main(int argc, char *argv[])
 {
 	int i;
