@@ -2,8 +2,8 @@
 /**
  * main - funtion that prints name of program
  * @argc: argument count
- * @*argv: argument array
- * return: 0 (success)
+ * @argv: argument array
+ * Return: 0 (success)
  */
 int main(int argc, char *argv[])
 {
